@@ -1,3 +1,21 @@
 export const environment = {
-  production: true
+  // firebase: {
+  //   projectId: 'mobile-paos',
+  //   appId: '1:876256330773:web:65dda6549417bbf66cfa1c',
+  //   storageBucket: 'mobile-paos.appspot.com',
+  //   apiKey: 'AIzaSyCIr4vpHv0e6ec06vJ8l-TDCyzeUgKU350',
+  //   authDomain: 'mobile-paos.firebaseapp.com',
+  //   messagingSenderId: '876256330773',
+  //   measurementId: 'G-Q8XKF1XJ0T',
+  // },
+  production: true,
+  firebaseConfig : {
+    apiKey: "AIzaSyCIr4vpHv0e6ec06vJ8l-TDCyzeUgKU350",
+    authDomain: "mobile-paos.firebaseapp.com",
+    projectId: "mobile-paos",
+    storageBucket: "mobile-paos.appspot.com",
+    messagingSenderId: "876256330773",
+    appId: "1:876256330773:web:65dda6549417bbf66cfa1c",
+    measurementId: "G-Q8XKF1XJ0T"
+  }
 };
