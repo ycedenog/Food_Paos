@@ -4,8 +4,10 @@
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine"
-    ]
+      "jasmine",
+      "node"
+    ],
+    "lib": ["es2018", "es2017", "esnext.asynciterable", "dom"], 
   },
   "files": [
     "src/test.ts",

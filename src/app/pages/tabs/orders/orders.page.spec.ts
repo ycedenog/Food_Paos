@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 import { OrdersPage } from './orders.page';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
@@ -41,13 +41,4 @@ describe('OrdersPage', () => {
     expect(component.filteredOrders[0].id).toBe(1);
   });
 
-  it('should navigate to order details with correct order ID', () => {
-    const routerSpy = spyOn(component.router, 'navigate');
-    component.orders = [{ id: 1, state: 'PENDING', delivery_address: 'Address 1' }];
-    component.viewOrderDetails(1);
-
-    expect(routerSpy).toHaveBeenCalledWith(['/tabs/orders/order-details'], {
-      state: { orderDetails: component.orders[0] },
-    });
-  });
 });

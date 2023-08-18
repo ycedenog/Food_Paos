@@ -9,7 +9,7 @@ import { AuthenticationService } from 'src/app/authentication.service';
 })
 export class ProfilePage implements OnInit {
 
-  constructor(private router : Router, private authService : AuthenticationService) { }
+  constructor(public router : Router, private authService : AuthenticationService) { }
 
   ngOnInit() {
   }
