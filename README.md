@@ -1,5 +1,6 @@
 # Paos-Food-Mobile Installation Guide
 
+
 ## Introduction
 
 Welcome to the Paos-Food-Mobile installation guide. This guide provides a quick and easy way to set up the Paos-Food mobile application on your Android device. Paos-Food-Mobile is designed for food delivery drivers working with Paos, a local fast-food restaurant. This guide assumes you have a basic understanding of Android development tools.
@@ -20,37 +21,37 @@ Follow these steps to install Paos-Food-Mobile on your Android device:
 
 1. Clone the Paos-Food-Mobile repository to your local machine:
 
-   ```
-   git clone https://github.com/ycedenog/Paos-Food-Mobile
+   ```bash
+   git clone [repository_url]
    ```
 
 2. Navigate to the project directory:
 
-   ```
+   ```bash
    cd Paos-Food-Mobile
    ```
 
 3. Install project dependencies:
 
-   ```
+   ```bash
    npm install
    ```
 
 4. Initialize Capacitor with your app's name and ID:
 
-   ```
+   ```bash
    npx cap init [app_name] [app_id]
    ```
 
 5. Add the Android platform to your project:
 
-   ```
+   ```bash
    npx cap add android
    ```
 
 6. Build the app for production:
 
-   ```
+   ```bash
    ionic build --prod
    ```
 
@@ -63,24 +64,24 @@ Follow these steps to install Paos-Food-Mobile on your Android device:
 10. Follow the on-screen instructions to install the app on your device.
 
 11. Once installed, you can launch Paos-Food-Mobile from your device's app drawer.
- 
-##Running Tests
+
+## Running Tests
+
 To run tests for Paos-Food-Mobile, follow these steps:
 
-Navigate to the project directory:
+1. Navigate to the project directory:
 
-bash
-Copy code
-cd Paos-Food-Mobile
-Run the tests using the Ionic CLI:
+   ```bash
+   cd Paos-Food-Mobile
+   ```
 
-bash
-Copy code
-ionic test
-The Ionic testing framework will launch, and you can select the specific tests you want to run.
+2. Run the tests using the Ionic CLI:
 
-Usage
-Paos-Food-Mobile is designed for delivery drivers working with Paos. Log in with your credentials to start managing and delivering orders.
+   ```bash
+   ionic test
+   ```
+
+3. The Ionic testing framework will launch, and you can select the specific tests you want to run.
 
 ## Usage
 
@@ -93,3 +94,10 @@ If you encounter any issues during the installation process, refer to the troubl
 For more detailed information on the installation process, please refer to the comprehensive installation guide.
 
 Happy delivering with Paos-Food-Mobile!
+
+## Screenshots
+
+![Screenshot 1](img/img1.png)
+![Screenshot 2](img/img2.png)
+![Screenshot 3](img/img3.png)
+![Screenshot 4](img/img4.png)
