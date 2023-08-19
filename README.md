@@ -83,6 +83,8 @@ To run tests for Paos-Food-Mobile, follow these steps:
 
 3. The Ionic testing framework will launch, and you can select the specific tests you want to run.
 
+![Screenshot 8](img/console-karma.JPG)
+
 ## Usage
 
 Paos-Food-Mobile is designed for delivery drivers working with Paos. Log in with your credentials to start managing and delivering orders.
@@ -97,7 +99,10 @@ Happy delivering with Paos-Food-Mobile!
 
 ## Screenshots
 
-![Screenshot 1](img/img1.png)
-![Screenshot 2](img/img2.png)
-![Screenshot 3](img/img3.png)
-![Screenshot 4](img/img4.png)
+![Screenshot 1](img/img1.JPG)
+![Screenshot 2](img/img2.JPG)
+![Screenshot 3](img/img3.JPG)
+![Screenshot 4](img/img4.JPG)
+![Screenshot 5](img/img5.JPG)
+![Screenshot 6](img/img6.JPG)
+![Screenshot 7](img/img7.JPG)
