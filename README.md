@@ -83,7 +83,7 @@ To run tests for Paos-Food-Mobile, follow these steps:
 
 3. The Ionic testing framework will launch, and you can select the specific tests you want to run.
 
-![Screenshot 8](img/console-karma.JPG)
+![Screenshot 8](/img/console-karma.jpg)
 
 ## Usage
 
@@ -99,7 +99,7 @@ Happy delivering with Paos-Food-Mobile!
 
 ## Screenshots
 
-![Screenshot 1](img/img1.JPG)
+![Screenshot 1](/img/img1.JPG)
 ![Screenshot 2](img/img2.JPG)
 ![Screenshot 3](img/img3.JPG)
 ![Screenshot 4](img/img4.JPG)
