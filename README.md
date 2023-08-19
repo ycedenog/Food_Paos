@@ -21,7 +21,7 @@ Follow these steps to install Paos-Food-Mobile on your Android device:
 1. Clone the Paos-Food-Mobile repository to your local machine:
 
    ```
-   git clone [[repository_url]](https://github.com/ycedenog/Paos-Food-Mobile)
+   git clone https://github.com/ycedenog/Paos-Food-Mobile
    ```
 
 2. Navigate to the project directory:
