@@ -63,6 +63,24 @@ Follow these steps to install Paos-Food-Mobile on your Android device:
 10. Follow the on-screen instructions to install the app on your device.
 
 11. Once installed, you can launch Paos-Food-Mobile from your device's app drawer.
+ 
+##Running Tests
+To run tests for Paos-Food-Mobile, follow these steps:
+
+Navigate to the project directory:
+
+bash
+Copy code
+cd Paos-Food-Mobile
+Run the tests using the Ionic CLI:
+
+bash
+Copy code
+ionic test
+The Ionic testing framework will launch, and you can select the specific tests you want to run.
+
+Usage
+Paos-Food-Mobile is designed for delivery drivers working with Paos. Log in with your credentials to start managing and delivering orders.
 
 ## Usage
 
